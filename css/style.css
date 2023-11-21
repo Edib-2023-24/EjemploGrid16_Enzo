@@ -17,3 +17,25 @@
 /* Colores */
 
 /* ******************************** */
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Para llamar a un id del html siempre se utiliza '#' y para la clase '.csdaas' */
+  #container{
+    width: min(100%,1200px);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    gap: 10px;
+  }
+
+  
+  
+}
+  
+  
+  
+
