@@ -8,14 +8,31 @@
 
 /* Tipografía */
 @font-face {
-  font-family: "";
-  src: url("") format("woff2"), url("") format("woff");
+  font-family: "Roboto";
+  src: url("../font/Roboto.woff2") format("woff2"), url("") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Black";
+  src: url("../font/RobotoBlack.woff2") format("woff2"), url("") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville";
+  src: url("../font/baskerville.woff2") format("woff2"), url("") format("woff");
 }
 
 /* ******************************** */
 
 /* Colores */
-
+:root {
+  --color-blanco: #fff;
+  --color-gris_claro: #444444;
+  --color-gris_medio_oscuro: #212121;
+  --color-verde_oscuro: #434f43;
+  --color-linea: #cecece;
+  --color-footer: #f0f0f6;
+}
 /* ******************************** */
 
 body{
